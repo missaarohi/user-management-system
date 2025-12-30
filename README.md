@@ -2,7 +2,6 @@
 
 A complete **User Management System** built using **Flask (Python)** and **MongoDB**, with authentication, role-based access, and a simple frontend UI for signup, login, and dashboard.
 
-This project was developed as part of a **Backend Intern Assessment**, covering both backend APIs and frontend integration.
 
 ---
 
