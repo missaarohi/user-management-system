@@ -1,7 +1,7 @@
 from flask import Blueprint, request
 from app.config import mongo
-from models import create_user, user_response
-from auth import (
+from app.models import create_user, user_response
+from app.auth import (
     hash_password,
     verify_password,
     generate_jwt,
