@@ -1,5 +1,5 @@
 from flask import Blueprint, request
-from config import mongo
+from app.config import mongo
 from models import create_user, user_response
 from auth import (
     hash_password,
