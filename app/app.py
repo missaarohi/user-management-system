@@ -4,8 +4,9 @@ from flask_cors import CORS
 from dotenv import load_dotenv
 import os
 
-from config import init_db
-from routes import routes
+from app.config import init_db
+from app.routes import routes
+
 
 load_dotenv()
 
@@ -22,4 +23,5 @@ def home():
     return {"message": "Backend running successfully"}
 
 if __name__ == "__main__":
-    app.run(debug=True)
+       app.run(host="0.0.0.0", port=int(os.getenv("PORT", 5000)))
+
