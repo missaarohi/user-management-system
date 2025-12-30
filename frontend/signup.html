@@ -1,0 +1,21 @@
+<link rel="stylesheet" href="css/style.css">
+
+<div class="auth-container">
+    <h2>Sign Up</h2>
+    <p class="error" id="error"></p>
+    <p class="success" id="success"></p>
+
+    <input type="text" id="full_name" placeholder="Full Name">
+    <input type="email" id="email" placeholder="Email">
+    <input type="password" id="password" placeholder="Password">
+    <select id="role" required>
+    <option value="user">User</option>
+    <option value="admin">Admin</option>
+</select>
+
+    <button onclick="signup()">Create Account</button>
+
+    <p>Already have an account? <a href="index.html">Login</a></p>
+</div>
+
+<script src="js/signup.js"></script>
